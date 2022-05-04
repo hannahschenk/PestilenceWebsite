@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+	<link rel="apple-touch-icon" href="/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="/favicon-144.png">
+	<meta name="msapplication-config" content="/browserconfig.xml">
+  <title>pestilence - home</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300|Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="headerContainer">
+    <div id="header">
+      <a href="index.html"><img id="title" src="images/title.png"></a>
+      <h2>a game by Third Eye</h2>
+    </div>
+  </div>
+  <div id="tabs">
+    <a class="links" id="current"href="index.html">home</a>
+    <a class="links" href="about.html">about us</a>
+    <a class="links" href="blog.html">dev blog</a>
+    <a class="links" href= "https://thirdeyestout.itch.io/pestilence" target = "blank">play the game</a>
+  </div>
+  <div class="all">
+
+  <div class="wrapper">
+  <div class="slideshows">
+    <div class="slideshow slideshow--hero">
+      <div class="slides">
+        <div class="slide slide1"></div>
+        <div class="slide slide2"></div>
+        <div class="slide slide3"></div>
+        <div class="slide slide4"></div>
+        <div class="slide slide5"></div>
+        <div class="slide slide6"></div>
+        <div class="slide slide7"></div>
+        <div class="slide slide8"></div>
+      </div>
+    </div>
+    <div class="slideshow slideshow--contrast slideshow--contrast--before">
+      <div class="slides">
+        <div class="slide slide1"></div>
+        <div class="slide slide2"></div>
+        <div class="slide slide3"></div>
+        <div class="slide slide4"></div>
+        <div class="slide slide5"></div>
+        <div class="slide slide6"></div>
+        <div class="slide slide7"></div>
+        <div class="slide slide8"></div>
+      </div>
+    </div>
+    <div class="slideshow slideshow--contrast slideshow--contrast--after">
+      <div class="slides">
+        <div class="slide slide1"></div>
+        <div class="slide slide2"></div>
+        <div class="slide slide3"></div>
+        <div class="slide slide4"></div>
+        <div class="slide slide5"></div>
+        <div class="slide slide6"></div>
+        <div class="slide slide7"></div>
+        <div class="slide slide8"></div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+  <div id="contentContainer">
+    <div id="content">
+      <p class="head">Pestilence is an action/thriller game where you play as an ancient
+        deity of disease trying to reclaim an infection that has run rampant
+        in the subway tunnels of a near-future city. Using your supernatural powers, you must find and cleanse the infection from the mind of its hosts.</p>
+    </div>
+  </div>
+
+<div id="vimeo">
+<iframe width="800" height="600" src="https://www.youtube.com/embed/jOE-Lf9zjjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+
+      <div id="video1">
+        <iframe width="800" height="600" src="https://www.youtube.com/embed/s2IKLkFab_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+<div class=techContainer>
+      <div class="tech-slideshow">
+        <div class="mover-1"></div>
+      </div>
+    </div>
+
+  <div id="footerContainer">
+    <a target="_blank" href="https://www.facebook.com/Third-Eye-Stout-112874393472324/"><img class="social" id="facebook" src="images/facebook.png" alt="facebook"></a>
+    <a target="_blank" href="https://twitter.com/ThirdEyeStout"><img class="social" id="twitter" src="images/twitter.png" alt="twitter"></a>
+    <a target="_blank" href="https://www.instagram.com/thirdeye_stout/"><img class="social" id="instagram" src="images/instagram.png" alt="instagram"></a>
+  </div>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("tabs");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
